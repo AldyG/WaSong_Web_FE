@@ -1,0 +1,13 @@
+.icono-google {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 10px;
+  position: relative;
+}
+
+.icono-google .img {
+  height: 20px;
+  object-fit: cover;
+  position: relative;
+  width: 20px;
+}

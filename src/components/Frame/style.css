@@ -1,0 +1,29 @@
+.frame {
+  align-items: center;
+  border: 2px solid;
+  border-color: var(--negro);
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+  height: 56px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  width: 396px;
+}
+
+.frame .icono-google-instance {
+  flex: 0 0 auto !important;
+}
+
+.frame .text-wrapper {
+  color: var(--negro);
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

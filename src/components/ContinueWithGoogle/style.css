@@ -1,0 +1,10 @@
+.continue-with-google {
+  align-items: flex-start;
+  display: inline-flex;
+  position: relative;
+}
+
+.continue-with-google.outline {
+  background-color: #000000;
+  border-radius: 8px;
+}

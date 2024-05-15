@@ -1,0 +1,18 @@
+.forgot-password {
+  height: 16px;
+  position: relative;
+  width: 130px;
+}
+
+.forgot-password .text-wrapper-3 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 1.3px;
+  line-height: normal;
+  position: absolute;
+  text-decoration: underline;
+  top: -1px;
+}

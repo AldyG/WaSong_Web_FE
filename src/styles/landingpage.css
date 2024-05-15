@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 .home {
-  background-color: #ffffff;
+  background-color: #FDF8EE;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -12,7 +12,7 @@
 }
 
 .home .overlap-wrapper {
-  background-color: #ffffff;
+  background-color: #FDF8EE;
   height: 585px;
   width: 1300px;
 }
@@ -51,7 +51,7 @@
 }
 
 .home .group {
-  background-color: #ffffff;
+  background-color: #FDF8EE;
   border-radius: 26px;
   height: 52px;
   left: 56px;
@@ -349,18 +349,18 @@
 
 .home .wa-ong {
   color: #504f4f;
-  font-family: "Rubik";
+  font-family: "Rubik", Helvetica;
   font-size: 30px;
   font-weight: 700;
   left: 0;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  /* top: 10px; */
+  top: 16px;
   white-space: nowrap;
   width: 126px;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
 }
 
 .home .screenshot-5 {

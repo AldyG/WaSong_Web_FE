@@ -1,0 +1,1 @@
+export { IconoGoogle } from "./IconoGoogle";

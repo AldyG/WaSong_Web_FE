@@ -1,0 +1,1 @@
+export { BotonRecuerdame } from "./BotonRecuerdame";

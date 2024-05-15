@@ -1,0 +1,27 @@
+.email {
+  align-items: center;
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+  height: 56px;
+  padding: 10px 10px 10px 15px;
+  position: relative;
+  width: 396px;
+}
+
+.email .div {
+  background: transparent;
+  border: none;
+  color: #5b5b5b;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.44px;
+  line-height: normal;
+  padding: 0;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

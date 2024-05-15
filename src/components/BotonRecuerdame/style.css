@@ -1,0 +1,43 @@
+.boton-recuerdame {
+  align-items: center;
+  display: inline-flex;
+  gap: 5px;
+  position: relative;
+}
+
+.boton-recuerdame .rectangle-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.boton-recuerdame .rectangle {
+  border-radius: 3px;
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+
+.boton-recuerdame .p {
+  color: #000000;
+  font-family: var(--h5-inter-regular-13-font-family);
+  font-size: var(--h5-inter-regular-13-font-size);
+  font-style: var(--h5-inter-regular-13-font-style);
+  font-weight: var(--h5-inter-regular-13-font-weight);
+  letter-spacing: var(--h5-inter-regular-13-letter-spacing);
+  line-height: var(--h5-inter-regular-13-line-height);
+  position: relative;
+  width: fit-content;
+}
+
+.boton-recuerdame .activado {
+  background-color: #000000;
+}
+
+.boton-recuerdame .desactivado {
+  border: 1.5px solid;
+  border-color: #000000;
+}
