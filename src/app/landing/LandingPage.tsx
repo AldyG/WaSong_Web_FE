@@ -36,13 +36,13 @@ return (
           </div>
           <div className="group-icons">
             <div className="twitter-wrapper">
-              <a href="https://twitter.com/AldyAlexanderss">
-                <FontAwesomeIcon icon={faTwitter} color="black" />
+              <a href="https://twitter.com/AldyAlexanderss" target="_blank">
+                <FontAwesomeIcon icon={faTwitter} color="black" size="2xl"/>
               </a>
             </div>
             <div className="instagram-wrapper">
-              <a href="https://instagram.com/aldyganesen">
-                <FontAwesomeIcon icon={faInstagram} color="black"/>
+              <a href="https://instagram.com/aldyganesen" target="_blank">
+                <FontAwesomeIcon icon={faInstagram} color="black" size="2xl"/>
               </a>
             </div>
           </div>
