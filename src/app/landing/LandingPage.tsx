@@ -52,7 +52,7 @@ return (
               <img className="screenshot-5" alt="Screenshot" src="/images/screenshot-2024-05-03-at-18-30-1.png" />
             </div>
           </div>
-          <button className="bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded absolute bottom-5 right-4 w-1/2">
+          <button className="bg-black hover:bg-blue-700 text-white font-bold border border-blue-700 rounded absolute bottom-5 right-4 w-1/2 h-10">
             <a href="/register">
                 <div>
                     Register Now

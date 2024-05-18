@@ -2,9 +2,10 @@
   align-items: flex-start;
   display: inline-flex;
   position: relative;
+  background-color: #000000;
 }
-
+/* 
 .continue-with-google.outline {
   background-color: #000000;
   border-radius: 8px;
-}
+} */

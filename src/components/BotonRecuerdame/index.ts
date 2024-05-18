@@ -1,1 +1,0 @@
-export { BotonRecuerdame } from "./BotonRecuerdame";

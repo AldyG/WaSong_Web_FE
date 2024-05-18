@@ -8,6 +8,7 @@ import React from "react";
 import { useReducer } from "react";
 import { Frame } from "../Frame";
 import "./style.css";
+import { redirect } from "next/dist/server/api-utils";
 
 interface Props {
   tipo: "outline" | "field";
@@ -32,7 +33,7 @@ export const ContinueWithGoogle = ({
     <div
       className={`continue-with-google ${state.tipo} ${className}`}
       onClick={() => {
-        dispatch("click");
+        window.location.href = "/register";
       }}
     >
       <Frame

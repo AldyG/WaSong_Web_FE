@@ -1,9 +1,0 @@
-.email-vacio {
-  align-items: flex-start;
-  display: inline-flex;
-  position: relative;
-}
-
-.email-vacio .email-instance {
-  border: 4px solid !important;
-}

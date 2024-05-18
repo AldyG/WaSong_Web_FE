@@ -3,15 +3,15 @@ import React from "react";
 import { ContinueWithGoogle } from "../../components/ContinueWithGoogle";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons"
-import "../../styles/registerpage.css";
+import "../../styles/loginpage.css";
 
-const RegisterPage = () => {
+const LoginPage = () => {
 	return (
-		<div className="register-page">
+		<div className="login-page">
 			<div className="overlap-wrapper">
 				<div className="overlap">
 					<div className="overlap-group">
-						<div className="text-wrapper-4">Register</div>
+						<div className="text-wrapper-4">Login</div>
 						<div className="group-4">
 						<img className="screenshot" alt="Screenshot" src="/images/screenshot-2024-05-03-at-18-20-1.png" />
 						<img className="screenshot-2" alt="Screenshot" src="/images/screenshot-2024-05-03-at-18-20-1.png" />
@@ -63,7 +63,7 @@ const RegisterPage = () => {
 										border: "4px solid black",
 										borderRadius: "5px",
 									}}>
-										<span style={{fontWeight: "bold"}}>Create Account</span>
+										<span style={{fontWeight: "bold"}}>Login</span>
 									</button>
 								</form>
 								<input type="checkbox" style={{
@@ -74,10 +74,6 @@ const RegisterPage = () => {
 									marginRight: "auto",
 								}} />
 								<span style={{color: "black", marginLeft: "5px", fontSize: "14px"}}>Remember me for 30 days</span>
-								<p className="you-already-have">
-									<span className="span">You already have an account?</span>
-									<a href="/login" className="text-wrapper-6">Log in</a>
-								</p>
 							</div>
 						</div>
 					</div>
@@ -124,4 +120,4 @@ function showPassword() {
 	}
 }
 
-export default RegisterPage;
+export default LoginPage;

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
-.register-page {
+.login-page {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -11,21 +11,28 @@
     height: 100%;
   }
   
-  .register-page .overlap-wrapper {
+  .login-page .overlap-wrapper {
     background-color: #ffffff;
-    height: 100%;
-    width: 100%;
+    height: 888px;
+    width: 1621px;
   }
   
-  .register-page .overlap {
+  .login-page .overlap {
     background-image: url(/images/rectangle-8.png);
-    background-color: white;
     background-size: 100% 100%;
     height: 888px;
     position: relative;
   }
+  
+  .login-page .group {
+    height: 32px;
+    left: 1483px;
+    position: absolute;
+    top: 35px;
+    width: 107px;
+  }
 
-  .register-page .group-icons {
+  .login-page .group-icons {
     height: 32px;
     left: 1170px;
     position: relative;
@@ -34,7 +41,7 @@
     display: flex;
   }
 
-  .register-page .twitter-wrapper {
+  .login-page .twitter-wrapper {
     height: 32px;
     left: 0;
     position: absolute;
@@ -42,14 +49,70 @@
     width: 30px;
   }
 
-  .register-page .instagram-wrapper {
+  .login-page .instagram-wrapper {
     height: 35px;
     left: 39px;
     position: absolute;
     width: 30px;
   }
   
-  .register-page .overlap-group {
+  .login-page .vector-wrapper {
+    background-color: #3a3a3a;
+    border-radius: 14.96px/15.76px;
+    height: 32px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 30px;
+  }
+  
+  .login-page .vector {
+    height: 19px;
+    left: 4px;
+    position: absolute;
+    top: 7px;
+    width: 21px;
+  }
+  
+  .login-page .group-wrapper {
+    background-color: #3a3a3a;
+    border-radius: 14.96px/15.76px;
+    height: 32px;
+    left: 39px;
+    position: absolute;
+    top: 0;
+    width: 30px;
+  }
+  
+  .login-page .group-2 {
+    background-image: url(/images/grommet-icons-instagram.svg);
+    background-size: 100% 100%;
+    height: 16px;
+    left: 7px;
+    position: relative;
+    top: 8px;
+    width: 15px;
+  }
+  
+  .login-page .img-wrapper {
+    background-color: #3a3a3a;
+    border-radius: 14.96px/15.76px;
+    height: 32px;
+    left: 77px;
+    position: absolute;
+    top: 0;
+    width: 30px;
+  }
+  
+  .login-page .group-3 {
+    height: 15px;
+    left: 11px;
+    position: absolute;
+    top: 7px;
+    width: 9px;
+  }
+  
+  .login-page .overlap-group {
     height: 740px;
     left: 0;
     position: absolute;
@@ -57,12 +120,12 @@
     width: 1621px;
   }
   
-  .register-page .text-wrapper-4 {
+  .login-page .text-wrapper-4 {
     color: #333333;
     font-family: "Rubik", Helvetica;
     font-size: 65px;
     font-weight: 700;
-    right: 833px;
+    right: 876px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -70,7 +133,7 @@
     width: auto;
   }
   
-  .register-page .group-4 {
+  .login-page .group-4 {
     height: 708px;
     left: 0;
     position: absolute;
@@ -78,7 +141,7 @@
     width: 1621px;
   }
   
-  .register-page .screenshot {
+  .login-page .screenshot {
     height: 320px;
     left: 842px;
     object-fit: cover;
@@ -87,7 +150,7 @@
     width: 779px;
   }
   
-  .register-page .screenshot-2 {
+  .login-page .screenshot-2 {
     height: 320px;
     left: 842px;
     object-fit: cover;
@@ -96,7 +159,7 @@
     width: 779px;
   }
   
-  .register-page .screenshot-3 {
+  .login-page .screenshot-3 {
     height: 320px;
     left: 0;
     object-fit: cover;
@@ -105,7 +168,7 @@
     width: 779px;
   }
   
-  .register-page .screenshot-4 {
+  .login-page .screenshot-4 {
     height: 320px;
     left: 2px;
     object-fit: cover;
@@ -114,7 +177,7 @@
     width: 779px;
   }
   
-  .register-page .overlap-group-wrapper {
+  .login-page .overlap-group-wrapper {
     height: 554px;
     right: 715px;
     position: absolute;
@@ -122,16 +185,16 @@
     width: 491px;
   }
   
-  .register-page .overlap-group-2 {
+  .login-page .overlap-group-2 {
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 0px 4px 4px #00000040;
-    height: 500px;
+    height: 450px;
     position: relative;
     width: 489px;
   }
   
-  .register-page .continue-with-google-instance {
+  .login-page .continue-with-google-instance {
     display: flex !important;
     height: 50px !important;
     left: 47px !important;
@@ -141,18 +204,18 @@
     color: white !important;
   }
   
-  .register-page .design-component-instance-node {
+  .login-page .design-component-instance-node {
     border: 4px solid !important;
     border-radius: 8px !important;
     margin-bottom: -6.36px !important;
     margin-right: -0.81px !important;
   }
   
-  .register-page .design-component-instance-node-2 {
+  .login-page .design-component-instance-node-2 {
     font-family: "Rubik", Helvetica !important;
   }
   
-  .register-page .text-wrapper-5 {
+  .login-page .text-wrapper-5 {
     color: #5b5b5b;
     font-family: "Rubik", Helvetica;
     font-size: 16px;
@@ -166,7 +229,7 @@
     width: 17px;
   }
   
-  .register-page .email-vacio-instance {
+  .login-page .email-vacio-instance {
     display: flex !important;
     height: 50px !important;
     left: 47px !important;
@@ -175,18 +238,18 @@
     width: 395px !important;
   }
   
-  .register-page .email-2 {
+  .login-page .email-2 {
     color: var(--gris-textos) !important;
     font-family: "Rubik", Helvetica !important;
   }
   
-  .register-page .email-3 {
+  .login-page .email-3 {
     flex: 0 0 auto !important;
     margin-bottom: -6.36px !important;
     margin-right: -0.81px !important;
   }
   
-  .register-page .password-instance {
+  .login-page .password-instance {
     height: 50px !important;
     left: 47px !important;
     position: absolute !important;
@@ -194,7 +257,7 @@
     width: 395px !important;
   }
   
-  .register-page .create-account-wrapper {
+  .login-page .create-account-wrapper {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -206,13 +269,13 @@
     width: 395px;
   }
   
-  .register-page .create-account-instance {
+  .login-page .create-account-instance {
     margin-bottom: -7.27px !important;
     margin-left: -0.4px !important;
     margin-right: -0.4px !important;
   }
   
-  .register-page .create-account-2 {
+  .login-page .create-account-2 {
     font-family: "Rubik", Helvetica !important;
     font-size: 16px !important;
     font-style: unset !important;
@@ -221,7 +284,7 @@
     line-height: normal !important;
   }
   
-  .register-page .frame-2 {
+  .login-page .frame-2 {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -233,7 +296,7 @@
     width: 314px;
   }
   
-  .register-page .recuerdame-y-olvidar {
+  .login-page .recuerdame-y-olvidar {
     align-items: center;
     display: inline-flex;
     flex: 0 0 auto;
@@ -242,11 +305,11 @@
     position: relative;
   }
   
-  .register-page .boton-recuerdame-instance {
+  .login-page .boton-recuerdame-instance {
     flex: 0 0 auto !important;
   }
   
-  .register-page .boton-recuerdame-2 {
+  .login-page .boton-recuerdame-2 {
     font-family: "Rubik", Helvetica !important;
     font-size: 13px !important;
     font-style: unset !important;
@@ -256,12 +319,12 @@
     white-space: nowrap !important;
   }
   
-  .register-page .forgot-password-instance {
+  .login-page .forgot-password-instance {
     font-family: "Rubik", Helvetica !important;
     white-space: nowrap !important;
   }
   
-  .register-page .you-already-have {
+  .login-page .you-already-have {
     color: transparent;
     font-family: "Rubik", Helvetica;
     font-size: 16px;
@@ -277,19 +340,19 @@
     width: fit-content;
   }
   
-  .register-page .span {
+  .login-page .span {
     color: #5b5b5b;
     letter-spacing: 0.26px;
   }
   
-  .register-page .text-wrapper-6 {
+  .login-page .text-wrapper-6 {
     color: #000000;
     letter-spacing: 0.26px;
     margin-left: 2px;
     text-decoration: underline;
   }
   
-  .register-page .div-wrapper {
+  .login-page .div-wrapper {
     height: 81px;
     left: 59px;
     position: absolute;
@@ -297,13 +360,13 @@
     width: 128px;
   }
   
-  .register-page .overlap-2 {
+  .login-page .overlap-2 {
     height: 81px;
     position: relative;
     width: 126px;
   }
   
-  .register-page .wa-ong {
+  .login-page .wa-ong {
     color: #504f4f;
     font-family: "Rubik", Helvetica;
     font-size: 30px;
@@ -317,7 +380,7 @@
     width: 126px;
   }
   
-  .register-page .screenshot-5 {
+  .login-page .screenshot-5 {
     height: 81px;
     left: 32px;
     object-fit: cover;
@@ -326,7 +389,7 @@
     width: 45px;
   }
   
-  .register-page .navbar {
+  .login-page .navbar {
     height: 17px;
     left: 700px;
     position: absolute;
@@ -335,7 +398,7 @@
     display: flex;
   }
   
-  .register-page .text-wrapper-7 {
+  .login-page .text-wrapper-7 {
     color: #1c1c1c;
     font-family: "Rubik", Helvetica;
     font-size: 18px;
@@ -349,7 +412,7 @@
     width: 54px;
   }
   
-  .register-page .text-wrapper-8 {
+  .login-page .text-wrapper-8 {
     color: #1c1c1c;
     font-family: "Rubik", Helvetica;
     font-size: 18px;
@@ -363,7 +426,7 @@
     width: 87px;
   }
   
-  .register-page .text-wrapper-9 {
+  .login-page .text-wrapper-9 {
     color: #1c1c1c;
     font-family: "Rubik", Helvetica;
     font-size: 18px;
@@ -377,7 +440,7 @@
     width: 104px;
   }
   
-  .register-page .text-wrapper-10 {
+  .login-page .text-wrapper-10 {
     color: #1c1c1c;
     font-family: "Rubik", Helvetica;
     font-size: 18px;
