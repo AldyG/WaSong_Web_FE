@@ -303,29 +303,6 @@
     width: 126px;
   }
   
-  .register-page .wa-ong {
-    color: #504f4f;
-    font-family: "Rubik", Helvetica;
-    font-size: 30px;
-    font-weight: 700;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 16px;
-    white-space: nowrap;
-    width: 126px;
-  }
-  
-  .register-page .screenshot-5 {
-    height: 81px;
-    left: 32px;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    width: 45px;
-  }
-  
   .register-page .navbar {
     height: 17px;
     left: 700px;

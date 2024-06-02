@@ -52,7 +52,7 @@ const RegisterPage = () => {
 									marginLeft: "45px",
 								}} />
 								<span style={{color: "black", marginLeft: "2px", fontSize: "14px"}}>Show Password</span>
-								<form action="/register" method="get">
+								<form action="/classes" method="get">
 									<button type="submit" style={{
 										// display: "block",
 										marginTop: "28px",
@@ -83,8 +83,7 @@ const RegisterPage = () => {
 					</div>
 					<div className="div-wrapper">
 						<div className="overlap-2">
-							<div className="wa-ong">Wa&nbsp;&nbsp;&nbsp;&nbsp;ong</div>
-							<img className="screenshot-5" alt="Screenshot" src="/images/screenshot-2024-05-03-at-18-30-1.png" />
+							<img alt="Logo" src="/images/wasong-logo.png" />
 						</div>
 					</div>
 					<div className="navbar">

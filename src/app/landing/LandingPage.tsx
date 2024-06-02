@@ -47,10 +47,7 @@ return (
             </div>
           </div>
           <div className="overlap-group-wrapper">
-            <div className="overlap-group-2">
-              <div className="wa-ong"> Wa&nbsp;&nbsp;&nbsp;&nbsp;ong</div>
-              <img className="screenshot-5" alt="Screenshot" src="/images/screenshot-2024-05-03-at-18-30-1.png" />
-            </div>
+            <img alt="Logo" src="/images/wasong-logo.png" />
           </div>
           <button className="bg-black hover:bg-blue-700 text-white font-bold border border-blue-700 rounded absolute bottom-5 right-4 w-1/2 h-10">
             <a href="/register">
