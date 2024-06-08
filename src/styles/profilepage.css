@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+.profile {
+    background-color: #ffffff; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    width: 100%;
+} 
+.profile .div {
+    background-color: #ffffff; 
+    height: 1623px; 
+    position: relative; 
+    width: 1621px;
+}
+.profile .overlap {
+    background-image: url(/images/rectangle-8.png); 
+    background-size: 100% 100%;
+    height: 107px; 
+    left: 0; 
+    position: absolute; 
+    top: 0; 
+    width: 1621px;
+}
+.profile .group {
+    height: 81px;
+    left: 25px; 
+    position: absolute; 
+    top: 13px; 
+    width: 128px;
+}
+.profile .overlap-group {
+    height: 81px; 
+    position: relative; 
+    width: 126px;
+} 
+.profile .wa-ong {
+    color: #504f4f; 
+    font-family: "Rubik-Bold", Helvetica; 
+    font-size: 30px; 
+    font-weight: 700; 
+    left: 0; 
+    letter-spacing: 0; 
+    line-height: normal; 
+    position: absolute; 
+    top: 16px; 
+    white-space: nowrap; 
+    width: 126px;
+}
+.profile .screenshot {
+    height: 81px; 
+    left: 32px; 
+    object-fit: cover; 
+    position: absolute; 
+    top: 0; 
+    width: 45px;
+}
+.profile .group-2 {
+    height: 17px; 
+    left: 1113px; 
+    position: absolute; 
+    top: 37px; 
+    width: 337px;
+}
+.profile .text-wrapper {
+    color: #1c1c1c; 
+    font-family: "Rubik-Bold", Helvetica; 
+    font-size: 18px; 
+    font-weight: 700; 
+    left: 0; 
+    letter-spacing: 0; 
+    line-height: normal; 
+    position: absolute; 
+    top: 0; 
+    white-space: nowrap; 
+    width: 54px;
+}
+.profile .text-wrapper-2 {
+    color: #1c1c1c; 
+    font-family: "Rubik-Regular", Helvetica; 
+    font-size: 18px; 
+    font-weight: 400; 
+    left: 87px; 
+    letter-spacing: 0; 
+    line-height: normal; 
+    position: absolute; 
+    top: 0; 
+    white-space: nowrap; 
+    width: 87px;
+}
+.profile .text-wrapper-3 {
+    color: #1c1c1c; 
+    font-family: "Rubik-Regular", Helvetica; 
+    font-size: 18px; 
+    font-weight: 400; 
+    left: 207px; 
+    letter-spacing: 0; 
+    line-height: normal; 
+    position: absolute; 
+    top: 0; 
+    white-space: nowrap; 
+    width: 124px;
+}
+.profile .text-wrapper-4 {
+    color: #0b0a0a; 
+    font-family: "Rubik-Regular", Helvetica;
+    font-size: 18px; 
+    font-weight: 400; 
+    height: 21px; 
+    left: 1487px; 
+    letter-spacing: 0; 
+    line-height: normal; 
+    position: absolute; 
+    text-align: center; 
+    top: 36px; 
+    white-space: nowrap;
+}
+.profile .text-wrapper-5 {
+    color: #333333;
+    font-family: "Rubik-Bold", Helvetica; 
+    font-size: 50px; 
+    font-weight: 700; 
+    left: 102px; 
+    letter-spacing: 0; 
+    line-height: normal; 
+    position: absolute; 
+    top: 162px; 
+    white-space: nowrap;
+} 
+.profile .overlap-2 {
+    height: 77px; 
+    left: 564px; 
+    position: absolute; 
+    top: 302px; 
+    width: 414px;
+}
+.profile .text-wrapper-6 {
+    color: #333333; 
+    font-family: "Rubik-Bold", Helvetica;
+    font-size: 40px; 
+    font-weight: 700; 
+    left: 0; 
+    letter-spacing: 0; 
+    line-height: normal; 
+    position: absolute; 
+    top: 0; 
+    width: 414px;
+}
+.profile .text-wrapper-7 {
+    color: #505050; 
+    font-family: "Rubik-Bold", Helvetica; 
+    font-size: 20px; 
+    font-weight: 700; 
+    left: 4px; 
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute; 
+    top: 53px; 
+    width: 177px;
+}
+.profile .email-age-date-of {
+    color: #505050; 
+    font-family: "Rubik-Regular", Helvetica; 
+    font-size: 20px; 
+    font-weight: 400; 
+    left: 568px; 
+    letter-spacing: 0; 
+    line-height: normal; 
+    position: absolute; 
+    top: 402px; 
+    width: 177px;
+}
+.profile .toperrrr-gmail-com {
+    color: #505050; 
+    font-family: "Rubik-Regular", Helvetica; 
+    font-size: 20px; 
+    font-weight: 400; 
+    left: 745px; 
+    letter-spacing: 0; 
+    line-height: normal; 
+    position: absolute; 
+    top: 402px; 
+    width: 259px;
+}
+.profile .overlap-wrapper {
+    height: 214px; 
+    left: 102px; 
+    position: absolute; 
+    top: 748px; 
+    width: 1428px;
+}
+.profile .overlap-3 {
+    background-color: #ffffff; 
+    border-radius: 14px; 
+    box-shadow: 0px 4px 25px #0000001a; 
+    height: 214px; 
+    position: relative; 
+    width: 1422px;
+} 
+.profile .text-wrapper-8 {
+    color: #ffffff; 
+    font-family: "Roboto-Medium", Helvetica; 
+    font-size: 25px; 
+    font-weight: 500; 
+    left: 732px; 
+    letter-spacing: 0; 
+    line-height: normal; 
+    position: absolute; 
+    top: 180px; 
+    white-space: nowrap; 
+    width: 186px;
+}
+.profile .text-wrapper-9 {
+    color: #504f4f; 
+    font-family: "Rubik-Bold", Helvetica;
+    font-size: 30px; 
+    font-weight: 700; 
+    left: 52px; 
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute; 
+    top: 14px; 
+    white-space: nowrap; 
+    width: 864px;
+}
+.profile .vector {
+    height: 7px; 
+    left: 945px; 
+    position: absolute; 
+    top: 183px; 
+    width: 25px;
+}
+.profile .p {
+    color: #505050; 
+    font-family: "Rubik-Regular", Helvetica; 
+    font-size: 20px; 
+    font-weight: 400; 
+    left: 52px; 
+    letter-spacing: 0; 
+    line-height: normal; 
+    position: absolute; 
+    text-align: justify;
+    top: 64px; 
+    width: 1319px; }
+.profile .best-acoustic {
+    height: 376px; 
+    left: 102px; 
+    object-fit: cover; 
+    position: absolute; 
+    top: 291px; 
+    width: 429px;
+}
+.profile .text-wrapper-10 {
+    color: #333333; 
+    font-family: "Rubik-Bold", Helvetica; 
+    font-size: 40px; 
+    font-weight: 700; 
+    left: 102px; 
+    letter-spacing: 0; 
+    line-height: normal; 
+    position: absolute; 
+    top: 1042px; 
+    width: 614px;
+}
+.profile .overlap-group-wrapper {
+    height: 352px; 
+    left: 494px; 
+    position: absolute; 
+    top: 1143px; 
+    width: 357px;
+}
+.profile .overlap-4 {
+    background-color: #ffffff; 
+    border-radius: 14px; 
+    box-shadow: 0px 4px 25px #0000001a; 
+    height: 352px; 
+    position: relative; 
+    width: 355px;
+}
+.profile .div-wrapper {
+    height: 36px; 
+    left: 12px; 
+    position: absolute; 
+    top: 242px; 
+    width: 58px;
+}
+.profile .text-wrapper-11 {
+    color: #000000; 
+    font-family: "Rubik-Medium", Helvetica; 
+    font-size: 20px; 
+    font-weight: 500; 
+    left: 0; 
+    letter-spacing: 0; 
+    line-height: normal; 
+    position: absolute; 
+    top: 0; 
+    width: 56px;
+}
+.profile .img {
+    height: 210px; 
+    left: 12px; 
+    object-fit: cover; 
+    position: absolute; 
+    top: 17px; 
+    width: 331px;
+}
+.profile .text-wrapper-12 {
+    color: #000000; 
+    font-family: "Rubik-Medium", Helvetica; 
+    font-size: 20px; 
+    font-weight: 500; 
+    left: 12px; 
+    letter-spacing: 0; 
+    line-height: normal; 
+    position: absolute; 
+    top: 291px;
+}
+.profile .group-3 {
+    height: 352px; 
+    left: 102px; 
+    position: absolute; 
+    top: 1143px; 
+    width: 357px;
+}
+.profile .group-4 {
+    height: 36px; 
+    left: 13px; 
+    position: absolute; 
+    top: 245px; 
+    width: 156px;
+}
+.profile .text-wrapper-13 {
+    color: #000000; 
+    font-family: "Rubik-Medium", Helvetica; 
+    font-size: 20px; 
+    font-weight: 500; 
+    left: 0; 
+    letter-spacing: 0; 
+    line-height: normal; 
+    position: absolute; 
+    top: 0; 
+    width: 154px;
+}
+.profile .maxresdefault {
+    height: 210px; 
+    left: 13px; 
+    object-fit: cover; 
+    position: absolute; 
+    top: 17px; 
+    width: 331px;
+}
