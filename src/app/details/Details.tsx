@@ -102,11 +102,6 @@ const Details = () => {
             </div>
           </div>
         </div>
-        <img
-          loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/8d53396b22f16f724724f4372627933a90c8ff8bf7163276c656c06cf5bbc5dd?"
-          className="mt-14 w-3.5 aspect-[0.83] fill-white max-md:mt-10"
-        />
       </div>
       <div className="flex justify-center items-center px-16 py-14 mt-16 w-full text-7xl italic font-bold bg-orange-50 max-md:px-5 max-md:mt-10 max-md:max-w-full max-md:text-4xl">
         <img
