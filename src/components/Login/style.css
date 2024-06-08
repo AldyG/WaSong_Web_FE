@@ -1,0 +1,46 @@
+.div {
+    justify-content: center;
+    align-items: center;
+}
+
+.div .email {
+    margin-top: 150px;
+    margin-left: 45px;
+    width: 395px;
+    height: 50px;
+    color: black;
+    border: 4px solid;
+    border-color: black;
+    border-radius: 5px;
+    padding: 15px 10px 15px 15px;
+}
+
+.div .password {
+    display: block;
+    margin-top: 29px;
+    margin-left: 45px;
+    width: 395px;
+    height: 50px;
+    color: black;
+    border: 4px solid;
+    border-color: black;
+    border-radius: 5px;
+    padding: 15px 10px 15px 15px;
+}
+
+.div .check {
+    display: inline-block;
+    margin-top: 1px;
+    margin-left: 45px;
+}
+
+.div .button {
+    margin-top: 28px;
+    margin-left: 45px;
+    width: 395px;
+    height: 50px;
+    color: black;
+    border: 4px solid;
+    border-color: black;
+    border-radius: 5px;
+}

@@ -1,9 +1,10 @@
 "use client";
 import React from "react";
-import { ContinueWithGoogle } from "../../components/ContinueWithGoogle";
+import { ContinueWithGoogle } from "@/components/ContinueWithGoogle";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons"
 import "../../styles/loginpage.css";
+import { Login } from "@/components/Login";
 
 const LoginPage = () => {
 	return (
@@ -27,45 +28,7 @@ const LoginPage = () => {
 									frameIconoGoogleIconoGoogle="/images/icono-google-4.png"
 									tipo="field" />
 								<div className="text-wrapper-5">or</div>
-								<input type="email" placeholder="Email" style={{
-									marginTop: "150px", 
-									marginLeft: "45px",
-									width: "395px",
-									height: "50px",
-									color: "black",
-									border: "4px solid black",
-									borderRadius: "5px",
-									padding: "15px 10px 15px 15px"}} />
-								<input type="password" placeholder="Password" id="User Password" style={{
-									display: "block",
-									marginTop: "29px", 
-									marginLeft: "45px",
-									width: "395px",
-									height: "50px",
-									color: "black",
-									border: "4px solid black",
-									borderRadius: "5px",
-									padding: "15px 10px 15px 15px"}} />
-								<input type="checkbox" onClick={showPassword} style={{
-									display: "inline-block",
-									marginTop: "1px",
-									marginLeft: "45px",
-								}} />
-								<span style={{color: "black", marginLeft: "2px", fontSize: "14px"}}>Show Password</span>
-								<form action="/register" method="get">
-									<button type="submit" style={{
-										// display: "block",
-										marginTop: "28px",
-										marginLeft: "45px",
-										width: "395px",
-										height: "50px",
-										color: "black",
-										border: "4px solid black",
-										borderRadius: "5px",
-									}}>
-										<span style={{fontWeight: "bold"}}>Login</span>
-									</button>
-								</form>
+								<Login />
 								<input type="checkbox" style={{
 									display: "inline-block",
 									alignItems: "center",
@@ -106,18 +69,5 @@ const LoginPage = () => {
 		</div>
 	);
 };
-
-function showPassword() {
-	var x = (document.getElementById("User Password") as HTMLInputElement);
-	if (x === null) return;
-	else {
-		if (x.type === "password") {
-			x.type = "text";
-		} else {
-			x.type = "password";
-		}
-	
-	}
-}
 
 export default LoginPage;
