@@ -226,4 +226,84 @@
     top: 257px;
     width: 550px;
 }
-
+.details .overlap-3 {
+    background-color: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0px 4px 25px #0000001a;
+    height: 376px;
+    position: relative;
+    width: 544px;
+}
+.details .text-wrapper-8 {
+    color: #333333;
+    font-family: "Rubik-Bold",
+    Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+    left: 56px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 32px;
+    width: 414px;
+}
+.details .date-time {
+    color: #222222;
+    font-family: "Rubik-Regular", Helvetica; 
+    font-size: 30px; 
+    font-weight: 400; 
+    left: 56px; 
+    letter-spacing: 0; 
+    line-height: normal; 
+    position: absolute; 
+    top: 125px; 
+    width: 111px; 
+}
+.details .monday-thursday {
+    color: #222222; 
+    font-family: "Rubik-Regular", Helvetica; 
+    font-size: 30px; 
+    font-weight: 400; 
+    left: 201px; 
+    letter-spacing: 0; 
+    line-height: normal; 
+    position: absolute; 
+    top: 124px; 
+    width: 290px;
+}
+.details .create-account-instance {
+    left: 155px !important; 
+    position: absolute !important; 
+    top: 254px !important; 
+    width: 216px !important;
+}
+.details .design-component-instance-node {
+    font-family: "Rubik-Bold", Helvetica !important; 
+    font-size: 25px !important; 
+    font-style: unset !important; 
+    font-weight: 700 !important; 
+    letter-spacing: 0 !important; 
+    line-height: normal !important; 
+    margin-top: -1px !important;
+}
+.details .overlap-4 {
+    background-image: url(/images/rectangle-10.png); 
+    background-size: 100% 100%; 
+    height: 174px; left: 0; 
+    position: absolute; 
+    top: 1270px; 
+    width: 1621px; 
+} 
+.details .p {
+    color: #333333; 
+    font-family: "Rubik-BoldItalic", Helvetica; 
+    font-size: 70px; 
+    font-style: italic; 
+    font-weight: 700; 
+    left: 242px; 
+    letter-spacing: 0; 
+    line-height: normal; 
+    position: absolute; 
+    top: 44px; 
+    white-space: nowrap;
+}
