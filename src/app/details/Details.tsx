@@ -108,8 +108,11 @@ const Details = () => {
           className="mt-14 w-3.5 aspect-[0.83] fill-white max-md:mt-10"
         />
       </div>
-      <div className="justify-center items-center px-16 py-14 w-full text-7xl italic font-bold bg-orange-50 text-zinc-800 max-md:px-5 max-md:max-w-full max-md:text-4xl">
-        Your Music Journey Starts Here!
+      <div className="flex justify-center items-center px-16 py-14 mt-16 w-full text-7xl italic font-bold bg-orange-50 max-md:px-5 max-md:mt-10 max-md:max-w-full max-md:text-4xl">
+        <img
+          loading="lazy"
+          srcSet="/images/wasong-journey.png"
+          />
       </div>
     </div>
   );
