@@ -10,16 +10,16 @@ const Classes = () => {
           srcSet="/images/wasong-logo.png"
           className="shrink-0 max-w-full w-[126px]"
         />
-        <div className="flex gap-5 my-auto max-md:flex-wrap max-md:max-w-full">
+        <div className="flex gap-5 my-auto max-md:flex-wrap max-md:max-w-full font-rubik">
           <div className="grow">Home</div>
-          <div className="font-bold">Classes</div>
+          <div className="font-bold underline">Classes</div>
           <div className="flex-auto">Assignments</div>
           <div className="text-center capitalize text-neutral-950">
             My Profile
           </div>
         </div>
       </div>
-      <div className="flex flex-col px-11 mt-14 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
+      <div className="flex flex-col px-11 mt-14 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full font-rubik">
         <div className="text-5xl font-bold text-zinc-800 max-md:max-w-full max-md:text-4xl">
           Classes
         </div>
@@ -32,8 +32,8 @@ const Classes = () => {
                   srcSet="/images/best-acoustic-guitars-1.png"
                   className="w-full aspect-[1.56]"
                 />
-                <div className="mt-5">Acoustic Guitar</div>
-                <div className="mt-10 max-md:mt-10">Rp 1.500.000/month </div>
+                <div className="mt-5 font-rubik">Acoustic Guitar</div>
+                <div className="mt-10 max-md:mt-10 font-rubik">Rp 1.500.000/month </div>
               </div>
             </div>
             <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">

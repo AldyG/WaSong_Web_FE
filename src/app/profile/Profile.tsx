@@ -3,7 +3,7 @@ import "../../styles/profilepage.css";
 
 const Profile = () => {
     return (
-        <div className="flex flex-col pb-20 bg-white">
+        <div className="flex flex-col pb-20 bg-white font-rubik">
           <div className="flex gap-5 justify-between py-3.5 pr-14 pl-6 w-full text-lg bg-orange-50 text-stone-900 max-md:flex-wrap max-md:px-5 max-md:max-w-full">
             <img
               loading="lazy"
@@ -14,7 +14,7 @@ const Profile = () => {
               <div className="grow font-bold">Home</div>
               <div>Classes</div>
               <div className="flex-auto">Assignments</div>
-              <div className="text-center capitalize text-neutral-950">
+              <div className="text-center capitalize text-neutral-950 underline">
                 My Profile
               </div>
             </div>
@@ -45,7 +45,7 @@ const Profile = () => {
                     </div>
                   </div>
                 </div>
-                <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
+                <div className="flex flex-col ml-5 w-4/12 max-md:ml-0 max-md:w-full">
                   <div className="self-stretch my-auto text-xl text-neutral-600 max-md:mt-10">
                     : toperrrr@gmail.com
                     <br />: 55

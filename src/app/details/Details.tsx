@@ -4,7 +4,7 @@ import "../../styles/details.css";
 
 const Details = () => {
   return (
-    <div className="flex flex-col bg-white">
+    <div className="flex flex-col bg-white font-rubik">
       <div className="flex gap-5 justify-between py-3.5 pr-14 pl-6 w-full text-lg bg-orange-50 text-stone-900 max-md:flex-wrap max-md:px-5 max-md:max-w-full">
         <img
           loading="lazy"
@@ -13,7 +13,7 @@ const Details = () => {
         />
         <div className="flex gap-5 my-auto max-md:flex-wrap max-md:max-w-full">
           <div className="grow">Home</div>
-          <div className="font-bold">Classes</div>
+          <div className="font-bold underline">Classes</div>
           <div className="flex-auto">Assignments</div>
           <div className="text-center capitalize text-neutral-950">
             My Profile
@@ -25,7 +25,7 @@ const Details = () => {
           <img
             loading="lazy"
             src="/images/Vector.png"
-            className="shrink-0 w-7 aspect-[0.68] fill-zinc-800"
+            className="shrink-0 self-start ml-2 mt-2 w-7 aspect-square fill-zinc-800"
           />
           <div className="flex-auto max-md:text-4xl">Back to Classes</div>
         </div>
@@ -65,16 +65,17 @@ const Details = () => {
           <div className="flex gap-5 max-md:flex-col max-md:gap-0">
             <div className="flex flex-col w-[68%] max-md:ml-0 max-md:w-full">
               <div className="justify-center items-start self-stretch px-7 py-11 my-auto w-full text-3xl font-bold bg-white rounded-2xl shadow-lg text-neutral-600 max-md:px-5 max-md:mt-10 max-md:max-w-full">
-                Master Degree in Musical Education
+                Class Curriculum:
                 <br />
-                Music Festival Champion I<br />
-                Music Festival Champion II
+                Beginner's Notes
                 <br />
-                Music Festival Champion III
+                Learning Fingers
                 <br />
-                Music Festival Champion IV
+                Acoustic Introduction I
                 <br />
-                Music Festival Champion V<br />
+                Acoustic Introduction II
+                <br />
+                Acoustic Introduction III <br />
                 Music Festival Champion VI
                 <br />
                 Music Festival Champion VII
@@ -83,6 +84,7 @@ const Details = () => {
                 <br />
                 Music Festival Champion IX
                 <br />
+                Music Festival Champion X
                 <br />
               </div>
             </div>

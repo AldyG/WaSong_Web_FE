@@ -3,7 +3,7 @@ import "../../styles/assignments.css";
 
 const Assignments = () => {
   return (
-    <div className="flex flex-col bg-white">
+    <div className="flex flex-col bg-white font-rubik">
       <div className="flex gap-5 justify-between py-3.5 pr-14 pl-6 w-full text-lg bg-orange-50 text-stone-900 max-md:flex-wrap max-md:px-5 max-md:max-w-full">
         <img
           loading="lazy"
@@ -13,7 +13,7 @@ const Assignments = () => {
         <div className="flex gap-5 my-auto max-md:flex-wrap max-md:max-w-full">
           <div>Home</div>
           <div>Classes</div>
-          <div className="flex-auto font-bold">Assignments</div>
+          <div className="flex-auto font-bold underline">Assignments</div>
           <div className="text-center capitalize text-neutral-950">
             My Profile
           </div>

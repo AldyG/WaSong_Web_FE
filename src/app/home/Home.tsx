@@ -4,7 +4,7 @@ import "../../styles/homepage.css";
 
 const Home = () => {
     return (
-        <div className="flex flex-col bg-white">
+        <div className="flex flex-col bg-white font-rubik">
           <div className="flex gap-5 justify-between py-3.5 pr-14 pl-6 w-full text-lg bg-orange-50 text-stone-900 max-md:flex-wrap max-md:px-5 max-md:max-w-full">
             <img
               loading="lazy"
@@ -12,7 +12,7 @@ const Home = () => {
               className="shrink-0 max-w-full w-[126px]"
             />
             <div className="flex gap-5 my-auto max-md:flex-wrap max-md:max-w-full">
-              <div className="grow font-bold">Home</div>
+              <div className="grow font-bold underline">Home</div>
               <div>Classes</div>
               <div className="flex-auto">Assignments</div>
               <div className="text-center capitalize text-neutral-950">
