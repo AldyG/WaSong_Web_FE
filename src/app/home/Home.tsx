@@ -12,12 +12,12 @@ const Home = () => {
               className="shrink-0 max-w-full w-[126px]"
             />
             <div className="flex gap-5 my-auto max-md:flex-wrap max-md:max-w-full">
-              <div className="grow font-bold underline">Home</div>
-              <div>Classes</div>
-              <div className="flex-auto">Assignments</div>
-              <div className="text-center capitalize text-neutral-950">
+              <a href="/home" className="grow font-bold underline">Home</a>
+              <a href="/classes">Classes</a>
+              <a href="/assignments" className="flex-auto">Assignments</a>
+              <a href="/profile" className="text-center capitalize text-neutral-950">
                 My Profile
-              </div>
+              </a>
             </div>
           </div>
           <div className="flex z-10 flex-col px-12 mt-0 w-full max-md:px-5 max-md:max-w-full">

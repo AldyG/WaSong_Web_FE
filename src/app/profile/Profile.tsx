@@ -11,12 +11,12 @@ const Profile = () => {
               className="shrink-0 max-w-full w-[126px]"
             />
             <div className="flex gap-5 my-auto max-md:flex-wrap max-md:max-w-full">
-              <div className="grow font-bold">Home</div>
-              <div>Classes</div>
-              <div className="flex-auto">Assignments</div>
-              <div className="text-center capitalize text-neutral-950 underline">
-                My Profile
-              </div>
+            <a href="/home">Home</a>
+            <a href="/classes">Classes</a>
+            <a href="/assignments" className="flex-auto">Assignments</a>
+            <a href="/profile" className="text-center capitalize text-neutral-950 grow font-bold underline">
+              My Profile
+            </a>
             </div>
           </div>
           <div className="flex flex-col items-center px-20 mt-16 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">

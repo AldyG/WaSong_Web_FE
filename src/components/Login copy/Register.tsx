@@ -18,8 +18,6 @@ function showPassword() {
 }
 
 async function handleRegister() {
-    const { newSession } = React.useContext(SessionContext) as SessionContextType;
-
 	var email = (document.getElementById("User Email") as HTMLInputElement);
     var password = (document.getElementById("User Password") as HTMLInputElement);
     
@@ -37,14 +35,7 @@ async function handleRegister() {
         })
     })
 
-    const { current } = React.useContext(SessionContext) as SessionContextType;
     const router = useRouter();
-
-    useEffect(() => {
-        if (current.expires == 0) {
-            router.push(`/login`);
-        }
-    }, [current.expires, router]);
 
     return fetch(req)
         .then(res => {

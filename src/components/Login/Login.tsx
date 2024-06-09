@@ -17,30 +17,29 @@ function showPassword() {
 }
 
 async function handleLogin() {
-    const { newSession } = React.useContext(SessionContext) as SessionContextType;
 
-	var email = (document.getElementById("User Email") as HTMLInputElement);
-    var password = (document.getElementById("User Password") as HTMLInputElement);
+	// var email = (document.getElementById("User Email") as HTMLInputElement);
+    // var password = (document.getElementById("User Password") as HTMLInputElement);
     
-    const headers: Headers = new Headers()
-    headers.set('Content-Type', 'application/json')
-    headers.set('Accept', 'application/json')
-    headers.set('Connection', 'keep-alive')
+    // const headers: Headers = new Headers()
+    // headers.set('Content-Type', 'application/json')
+    // headers.set('Accept', 'application/json')
+    // headers.set('Connection', 'keep-alive')
+    // headers.set('Access-Control-Allow-Origin', 'https://c719-114-122-106-87.ngrok-free.app')
 
-    const req: RequestInfo = new Request('https://c719-114-122-106-87.ngrok-free.app/api/login', {
-        method: 'POST',
-        headers: headers,
-        body: JSON.stringify({
-            "email":email.value,
-            "password":password.value
-        })
-    })
-
-    return fetch(req)
-        .then(res => {
-            newSession(res.json());    
-            return res.status
-        })
+    // const req: RequestInfo = new Request('https://c719-114-122-106-87.ngrok-free.app/api/login', {
+    //     method: 'POST',
+    //     headers: headers,
+    //     body: JSON.stringify({
+    //         "email":email.value,
+    //         "password":password.value
+    //     })
+    // })
+    // return fetch(req)
+    //     .then(res => {
+    //         // newSession(res.json());    
+    //         return res.status
+    //     })
 }
 
 export const Login = (): JSX.Element => {
@@ -51,7 +50,7 @@ export const Login = (): JSX.Element => {
             <input className={"check"} type="checkbox" onClick={showPassword} />
             <span style={{color: "black", marginLeft: "2px", fontSize: "14px"}}>Show Password</span>
             <button className={"button"} type="button" onClick={handleLogin} >
-                <span style={{fontWeight: "bold"}}>Login</span>
+                <a href="/home" style={{fontWeight: "bold"}}>Login</a>
             </button>
         </div>
     );

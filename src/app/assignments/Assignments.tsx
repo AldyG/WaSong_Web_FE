@@ -11,12 +11,12 @@ const Assignments = () => {
           className="shrink-0 max-w-full w-[126px]"
         />
         <div className="flex gap-5 my-auto max-md:flex-wrap max-md:max-w-full">
-          <div>Home</div>
-          <div>Classes</div>
-          <div className="flex-auto font-bold underline">Assignments</div>
-          <div className="text-center capitalize text-neutral-950">
-            My Profile
-          </div>
+        <a href="/home">Home</a>
+        <a href="/classes">Classes</a>
+        <a href="/assignments" className="flex-auto grow font-bold underline">Assignments</a>
+        <a href="/profile" className="text-center capitalize text-neutral-950">
+          My Profile
+        </a>
         </div>
       </div>
       <div className="flex flex-col items-center self-center mt-12 w-full max-w-[1366px] max-md:mt-10 max-md:max-w-full">
@@ -35,9 +35,9 @@ const Assignments = () => {
                   <br />
                   Due in 2 days{" "}
                 </div>
-                <div className="justify-center self-center p-2.5 mt-5 text-2xl text-black whitespace-nowrap rounded-lg border-4 border-black border-solid max-md:px-5">
+                <a href="/details" className="justify-center self-center p-2.5 mt-5 text-2xl text-black whitespace-nowrap rounded-lg border-4 border-black border-solid max-md:px-5">
                   DETAILS
-                </div>
+                </a>
               </div>
             </div>
             <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
