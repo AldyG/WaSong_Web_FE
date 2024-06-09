@@ -54,7 +54,7 @@ async function handleRegister() {
 
 export const Register = (): JSX.Element => {
     return (
-        <div className="form" >
+        <div className="div" >
             <input className="email" type="email" placeholder="Email" id="User Email" />
             <input className="password" type="password" placeholder="Password" id="User Password" />
             <input className="check" type="checkbox" onClick={showPassword} />
