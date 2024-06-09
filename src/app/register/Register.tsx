@@ -4,6 +4,7 @@ import { ContinueWithGoogle } from "../../components/ContinueWithGoogle";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons"
 import "../../styles/registerpage.css";
+import { Register } from "@/components/Register";
 
 const RegisterPage = () => {
 	return (
@@ -27,45 +28,7 @@ const RegisterPage = () => {
 									frameIconoGoogleIconoGoogle="/images/icono-google-4.png"
 									tipo="field" />
 								<div className="text-wrapper-5">or</div>
-								<input type="email" placeholder="Email" style={{
-									marginTop: "150px", 
-									marginLeft: "45px",
-									width: "395px",
-									height: "50px",
-									color: "black",
-									border: "4px solid black",
-									borderRadius: "5px",
-									padding: "15px 10px 15px 15px"}} />
-								<input type="password" placeholder="Password" id="User Password" style={{
-									display: "block",
-									marginTop: "29px", 
-									marginLeft: "45px",
-									width: "395px",
-									height: "50px",
-									color: "black",
-									border: "4px solid black",
-									borderRadius: "5px",
-									padding: "15px 10px 15px 15px"}} />
-								<input type="checkbox" onClick={showPassword} style={{
-									display: "inline-block",
-									marginTop: "1px",
-									marginLeft: "45px",
-								}} />
-								<span style={{color: "black", marginLeft: "2px", fontSize: "14px"}}>Show Password</span>
-								<form action="/classes" method="get">
-									<button type="submit" style={{
-										// display: "block",
-										marginTop: "28px",
-										marginLeft: "45px",
-										width: "395px",
-										height: "50px",
-										color: "black",
-										border: "4px solid black",
-										borderRadius: "5px",
-									}}>
-										<span style={{fontWeight: "bold"}}>Create Account</span>
-									</button>
-								</form>
+								<Register />
 								<input type="checkbox" style={{
 									display: "inline-block",
 									alignItems: "center",
