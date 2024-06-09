@@ -42,8 +42,11 @@ const LoginPage = () => {
 					</div>
 					<div className="div-wrapper">
 						<div className="overlap-2">
-							<div className="wa-ong">Wa&nbsp;&nbsp;&nbsp;&nbsp;ong</div>
-							<img className="screenshot-5" alt="Screenshot" src="/images/screenshot-2024-05-03-at-18-30-1.png" />
+							<img
+              				loading="lazy"
+              				srcSet="/images/wasong-logo.png"
+              				className="shrink-0 max-w-full w-[126px]"
+            				/>
 						</div>
 					</div>
 					<div className="navbar">
